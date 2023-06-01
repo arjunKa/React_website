@@ -1,34 +1,48 @@
 .portfolio__header {
     display: flex;
     flex-direction: row;
+    align-items: center;
+
 }
 
 .portfolio__header-content {
     flex: 1;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
+    text-align: center;
+    /* align-items: flex-start; */
     flex-direction: column;
 
-    margin-right: 5rem;
+    /* margin-right: 5rem; */
 }
 
 .portfolio__header-content h1 {
     font-family: var(--font-family);
+    color: #04b0e9;
     font-weight: 800;
     font-size: 62px;
     line-height: 75px;
     letter-spacing: -0.04em;
+
 }
 
 .portfolio__header-content p {
     font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+    letter-spacing: 0.03em;
     color: var(--color-text);
+    
 
-    margin-top: 1.5rem;
+    /* margin-top: 1.5rem; */
+}
+
+.portfolio__header-content-details {
+
+    margin: 2rem 25rem 1rem 25rem;
+
 }
 
 .portfolio__header-image {

@@ -1,4 +1,4 @@
-export { default as Projects } from './projects/Projects'
+export { default as ProjectList } from './project_list/ProjectList'
 export { default as Features } from './features/Features'
 export { default as Footer } from './footer/Footer'
 export { default as Header } from './header/Header'

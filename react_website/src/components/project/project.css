@@ -1,0 +1,130 @@
+.portfolio__project-container {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    background:#ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* background: var(--color-footer); */
+}
+
+.portfolio__project-container-content-image {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* background: var(--color-bg); */
+    
+}
+
+.portfolio__project-container-content-image img {
+ 
+    height: auto; 
+    width: auto; 
+    max-width: 500px; 
+    max-height: 500px;
+}
+
+.portfolio__project-container-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 1rem 1.5rem;
+    height: 100%;
+}
+
+.portfolio__blog-container_article-content_options {
+
+    display:grid;
+    
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0.3rem;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+
+
+
+}
+
+.portfolio__project-container-content p {
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-weight: 200;
+    line-height: default;
+
+    color: var(--color-text);
+}
+
+.portfolio__project-container-content h3 {
+    font-family: var(--font-family);
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 30.30px;
+    
+    color: #000000;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.portfolio__project-container-content-image-and-text {
+    flex: 1;
+    display: flex;
+    align-items: center;
+
+}
+
+.portfolio__project-container-content-text {
+    /* flex: 1; */
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: left;
+    margin-right: 2rem;
+
+}
+
+.portfolio__project-container-content-text p {
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.7rem;
+    /* max-width: 50%; */
+    color: var(--color-text);
+}
+
+.portfolio__project-container-content-image {
+    /* flex: 1; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.portfolio__project-container-content-logos {
+    /* flex: 1; */
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+
+}
+
+.portfolio__project-container-content-logos img {
+    height: auto; 
+    width: auto; 
+    max-width: 50px; 
+    max-height: 50px;
+}
+
+.portfolio__project-container-content p:last-child {
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 550px) {
+    .portfolio__project-container-content h3 {
+        font-size: 18px;
+        line-height: 25p;
+    }
+}

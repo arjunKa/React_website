@@ -36,9 +36,9 @@
 .gpt3__navbar-links_container p,
 .gpt3__navbar-sign p,
 .gpt3__navbar-menu_container p {
-    color: #fff;
+    color: var(--color-text);
     font-family: var(--font-family);
-    font-weight: 500;
+    font-weight: 600;
     font-size: 18px;
     line-height: 25px;
     text-transform: capitalize;
