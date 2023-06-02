@@ -13,7 +13,9 @@ const App = () => {
 
       <ProjectList />
       <ProjectDetails />
-      <Footer />
+      <div className='gradient__bg'>
+        <Footer />
+      </div>
       <BackToTopButton />
 
 

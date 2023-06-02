@@ -7,8 +7,8 @@ const Menu = () => (
   <>
   {/* <p><a href='#home'>About Me</a></p> */}
   <p><a href='#projects'>Projects</a></p>
-  <p><a href='#education'>Education</a></p>
-  <p><a href='#skills'>Skills</a></p>
+  {/* <p><a href='#education'>Education</a></p> */}
+  {/* <p><a href='#skills'>Skills</a></p> */}
   <p><a href='#contact'>Contact</a></p>
 
   </>
