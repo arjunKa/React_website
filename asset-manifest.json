@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React_website/static/css/main.87bc25b5.css",
-    "main.js": "/React_website/static/js/main.d420a6d7.js",
-    "static/js/787.94eda73a.chunk.js": "/React_website/static/js/787.94eda73a.chunk.js",
+    "main.js": "/React_website/static/js/main.dca3f227.js",
+    "static/js/787.e403dcb9.chunk.js": "/React_website/static/js/787.e403dcb9.chunk.js",
     "static/media/coronaCast2.png": "/React_website/static/media/coronaCast2.b907cf59f148e3e0fbe0.png",
     "static/media/3D_GPS.png": "/React_website/static/media/3D_GPS.7864523e62ea38baab5f.png",
     "static/media/portfolioSite.png": "/React_website/static/media/portfolioSite.1d4f004a663814c04227.png",
@@ -17,11 +17,11 @@
     "index.html": "/React_website/index.html",
     "static/media/icons8-html5.svg": "/React_website/static/media/icons8-html5.c1bb84e022ca9d76984d4b943bd678fd.svg",
     "main.87bc25b5.css.map": "/React_website/static/css/main.87bc25b5.css.map",
-    "main.d420a6d7.js.map": "/React_website/static/js/main.d420a6d7.js.map",
-    "787.94eda73a.chunk.js.map": "/React_website/static/js/787.94eda73a.chunk.js.map"
+    "main.dca3f227.js.map": "/React_website/static/js/main.dca3f227.js.map",
+    "787.e403dcb9.chunk.js.map": "/React_website/static/js/787.e403dcb9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.87bc25b5.css",
-    "static/js/main.d420a6d7.js"
+    "static/js/main.dca3f227.js"
   ]
 }
