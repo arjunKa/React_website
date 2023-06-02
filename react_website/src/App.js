@@ -11,10 +11,6 @@ const App = () => {
         <Header />
       </div>
 
-      {/* <Brand />
-      <WhatGPT3 />
-      <Features />
-      <CTA /> */}
       <ProjectList />
       <ProjectDetails />
       <Footer />

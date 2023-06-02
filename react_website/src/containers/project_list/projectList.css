@@ -1,20 +1,23 @@
 .portfolio__projectList {
-    display: flex;
-    flex-direction: column;    
-    margin-left: 2rem;
-    margin-right: 2rem;
+    /* display: flex;
+    flex-direction: column;      */
+     margin-left: 8rem;
+    margin-right: 8rem;
+    margin-top: 2rem;
     
+    /* margin: auto;
+    width: 50%; */
 }
 
 .portfolio__projectList-heading {
     width: 100%;
-    text-align: left;
+    text-align: center;
 
     margin-bottom: 1rem;
 }
 
 .portfolio__projectList-heading h1 {
-    font-size: 55px;
+    font-size: 50px;
     line-height: 75px;
     font-family: var(--font-family);
     font-weight: 600;
@@ -22,18 +25,14 @@
 }
 
 .portfolio__projectList-container {
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
 
 }
 
-.portfolio__projectList-container_groupA {
-    flex: 0.75;
-    margin-right: 2rem;
-}
 
 .portfolio__projectList-container_groupB {
-    flex: 1;
+    /* flex: 1; */
 
     display:grid;
     grid-template-columns: repeat(4, 1fr);

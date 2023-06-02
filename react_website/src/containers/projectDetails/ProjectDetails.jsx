@@ -1,6 +1,6 @@
 import React from 'react'
 import './projectDetails.css'
-import {Project, Project1} from '../../components/project'
+import {Project, Project1, Project2, Project3} from '../../components/project'
 
 const ProjectDetails = () => {
   return (
@@ -8,17 +8,17 @@ const ProjectDetails = () => {
       <div className="portfolio__projectDetails-heading">
         <h1>Projects in Detail</h1>
       </div>
-      <div className="portfolio__projectDetails-container">
-        {/* <div className="portfolio__blog-container_groupA">
-          <Article  date="Sep 26, 2021" text="GPT-3 and O  AI is the future. Let us exlore how it is?" />
-        </div> */}
-        <div className="portfolio__projectDetails-container_group">
+      
+     
+      <div className="portfolio__projectDetails-container_group">
+        <div id = "3D_GPS"><Project date="" header="3D GPS Software for Emergency Reponders" /></div>
+        <div id = "CoronaCast"><Project1 date="" header="CoronaCast" content = "test"/></div> 
+        <div id = "PortfolioSite"><Project2 date="" header="React.js Portfolio Site" content = "test"/></div> 
+        <div id = "DetectiveDom"><Project3 date="" header="Game: Detective Dom (Java)" content = "test"/></div> 
+        
 
-          <Project date="Date" header="CoronaCast" content = "test"/>
-          <Project1 date="Sep 26, 2021" header="GP Open  AI is the future. Let us exlore how it is?" />
-          
-        </div>
       </div>
+      
   </div>
   )
 }

@@ -1,12 +1,13 @@
 import React from 'react'
 import './project.css'
 import GitHubButton from 'react-github-btn'
-import coronaCast from '../../assets/ProjectImages/coronaCast.png'
-import coronaCast1 from '../../assets/ProjectImages/coronaCast2.png'
+import projectImage from '../../assets/ProjectImages/portfolioSite.png'
+
 import html5 from '../../assets/icons/icons8-html5.svg'
 import css from '../../assets/icons/css.png'
+import react from '../../assets/icons/react.svg'
 
-const Project1 = ({imgUrl, date, header, content}) => (
+const Project2 = ({imgUrl, date, header, content}) => (
   
     <div className="portfolio__project-container">
       <div className="portfolio__project-container-image">
@@ -25,6 +26,7 @@ const Project1 = ({imgUrl, date, header, content}) => (
           <h3>{header}</h3>
 
           <div className = "portfolio__project-container-content-logos">
+          <a target="_blank" href="https://icons8.com/icon/20909/html-5"><img src={react} alt = "logo" /></a>
           <a target="_blank" href="https://icons8.com/icon/20909/html-5"><img src={html5} alt = "logo" /></a>
           <a target="_blank" href="https://icons8.com/icon/20909/html-5"><img src={css} alt = "logo" /></a>
           </div>
@@ -33,18 +35,16 @@ const Project1 = ({imgUrl, date, header, content}) => (
           <button id='Github' >Github</button> <button id='Github' >Try it</button>
           </div>
 
-            <p>Made during the RUhacks hackaton, the purpose of this project is to provide the user
-                an easy to understand determination of the risk of Covid-19 in their area. This project showcases the use of API
-                 implementation and an HTML + CSS frontend.
-                 We take the user's location and use GoogleMaps API to determine the traffic conjestion in the area. We also take in data 
-                such as their their age, data of birth, any of their immune deficiencies.
-                  Finally, WeatherAPI is used to factor in elements such as humidty and wind to determine the overall risk factor.
+            <p>This section describes this portfolio site! It was built using React.js for the front-end and uses a clean and simple look
+              while also having multiple nice-to-have features for easy user experience such as a reactive
+              design which reponds to the screen dimensions, meaning that it is usable on mobile.
+              This portfolio website evolves and grows constantly as I add more projects and features, so there will be much more to add.
             </p>
           </div>
 
           <div className="portfolio__project-container-content-image">
-            <img src={coronaCast1} alt = "logo" />
-            <img src={coronaCast} alt = "logo" />
+            <img src={projectImage} alt = "Portfolio Site" />
+            
             
           </div>
 
@@ -58,4 +58,4 @@ const Project1 = ({imgUrl, date, header, content}) => (
   
   );
 
-export default Project1
+export default Project2
