@@ -40,14 +40,18 @@
 
 }
 
-@media screen and (max-width: 990px) {
-    .portfolio__projectList-container {
-        flex-direction: column-reverse;
+@media screen and (max-width: 1100px) {
+    .portfolio__projectList-container_groupB {
+        grid-template-columns: repeat(2, 1fr);
     }
+}
+
+@media screen and (max-width: 990px) {
+
 
 
     .portfolio__projectList-container_groupB {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
     
 }
@@ -69,7 +73,7 @@
 
 @media screen and (max-width: 550px) {
     .portfolio__projectList-heading h1 {
-        font-size: 34px;
+        font-size: 30px;
         line-height: 42px;
     }
 

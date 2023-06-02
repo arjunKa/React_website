@@ -42,7 +42,7 @@
 
 .portfolio__header-content-details {
 
-    margin: 2rem 25rem 1rem 25rem;
+    /* margin: 2rem 25rem 1rem 25rem; */
     width: 700px;
 
 }
@@ -59,13 +59,21 @@
     height: 100%;
 }
 
-@media screen and (max-width: 1050px) {
-    .portfolio__header {
-        flex-direction: column;
+@media screen and (max-width: 900px) {
+    .portfolio__header-content-details {
+
+        
+        width: 350px;
+    
+    }
+    .portfolio__header-content h1 {
+        font-size: 50px;
+        line-height: 60px;
     }
 
-    .portfolio__header-content {
-        margin: 0 0 3rem;
+    .portfolio__header-content p {
+        font-size: 18px;
+        line-height: 24px;
     }
 }
 
@@ -83,6 +91,12 @@
 }
 
 @media screen and (max-width: 490px) {
+    .portfolio__header-content-details {
+
+        
+        width: 350px;
+    
+    }
     .portfolio__header-content h1 {
         font-size: 36px;
         line-height: 48px;

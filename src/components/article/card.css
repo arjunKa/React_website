@@ -126,18 +126,30 @@
 } */
 
 @media screen and (max-width: 990px) {
+
+    .portfolio__blog-container_article {
+        width: 200px;
+        height: 100%;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        background: var(--color-card);
+        border: 2px solid transparent;
+        transition: 0.15s;
+    }
+
     .portfolio__blog-container_article-content h3 {
-        font-size: 18px;
+        font-size: 14px;
         
     }
 
     .skillsUsed h4 {
-        font-size: 14px;
+        font-size: 12px;
         font-weight: 600;
         
     }
     .skillsUsed p {
-        font-size: 12px;
+        font-size: 10px;
         font-weight: 400;
         
     }

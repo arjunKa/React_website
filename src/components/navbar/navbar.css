@@ -64,6 +64,7 @@
 
 .gpt3__navbar-menu {
     margin-left: 1rem;
+    color: black;
 
     display: none;
     position: relative;
@@ -80,7 +81,7 @@
     flex-direction: column;
     
     text-align: end;
-    background: var(--color-footer);
+    background: var(--color-main);
     padding: 2rem;
     position: absolute;
     right: 0;
