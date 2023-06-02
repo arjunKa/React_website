@@ -1,9 +1,10 @@
 .portfolio__footer{
     padding-bottom: 40px;
-    margin-left: 3rem;
-    margin-right: 3rem;
-    /* margin: auto;
-    width: 50%; */
+    /* margin-left: 3rem;
+    margin-right: 3rem; */
+    margin: auto;
+    width: 50%;
+
 
 }
 
@@ -15,6 +16,7 @@ padding-bottom: 20px;
 }
 .portfolio__footer-content{
 text-align: center;
+
 
 }
 
@@ -88,23 +90,14 @@ text-align: center;
 
     .portfolio__footer-content-contacts{
 
-        
-        
-        gap: 20px;
-    
-    
+        display: flex;
+        flex-direction: column;
+
     }
-    .portfolio__contact-container {
-        width: 400px;
-        height: 150px;
-        
-        
-    }
+
+
     .portfolio__footer-content h1{
-
-
         font-size: 34px;
-
         
     }
     .portfolio__footer-content h2{
