@@ -30,7 +30,10 @@ const Project1 = ({imgUrl, date, header, content}) => (
           </div>
 
           <div className="portfolio__blog-container_article-content_options">
-          <button id='Github' >Github</button> <button id='Github' >Try it</button>
+            <a href='https://github.com/Ru-Hacks/Coronacast' target='_blank'>
+            <div className='button'>GitHub</div></a>
+            <a href='https://ru-hacks.github.io/Coronacast/index.html' target='_blank'>
+            <div className='button'>Try It</div></a>
           </div>
 
             <p>Made during the RUhacks hackaton, the purpose of this project is to provide the user

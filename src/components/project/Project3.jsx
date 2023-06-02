@@ -30,7 +30,8 @@ const Project3 = ({imgUrl, date, header, content}) => (
           </div>
 
           <div className="portfolio__blog-container_article-content_options">
-          <button id='Github' >Try it</button>
+            <a href='https://www.greenfoot.org/scenarios/25657' target='_blank'>
+            <div className='button'>Try It</div></a>
           </div>
 
             <p>This is a game demo using Java and the Greenfoot game engine software to demonstrate a branching path style of game.

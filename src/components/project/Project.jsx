@@ -30,7 +30,10 @@ const Project = ({imgUrl, date, header, content}) => (
           </div>
 
           <div className="portfolio__blog-container_article-content_options">
-          <button id='Github' >Article</button> <button id='Github' >Demo</button>
+            <a href='https://lassonde.yorku.ca/lassonde-robotics-professor-helps-local-high-school-students' target='_blank'>
+            <div className='button'>Article</div></a>
+            <a href='https://www.youtube.com/watch?v=WexE3r4CIXI' target='_blank'>
+            <div className='button'>Demo</div></a>
           </div>
 
             <p>I worked in the VGR (Vision Graphics and Robotics) laboratory at York University to develop a prototype of a 3D GPS software.

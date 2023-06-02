@@ -32,7 +32,8 @@ const Project2 = ({imgUrl, date, header, content}) => (
           </div>
 
           <div className="portfolio__blog-container_article-content_options">
-          <button id='Github' >Github</button> <button id='Github' >Try it</button>
+            <a href='https://github.com/arjunKa/React_website' target='_blank'>
+            <div className='button'>GitHub</div></a>
           </div>
 
             <p>This section describes this portfolio site! It was built using React.js for the front-end and uses a clean and simple look
