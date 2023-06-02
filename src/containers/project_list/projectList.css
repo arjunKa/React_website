@@ -1,12 +1,11 @@
 .portfolio__projectList {
     /* display: flex;
     flex-direction: column;      */
-     margin-left: 8rem;
-    margin-right: 8rem;
+     /* margin-left: 8rem;
+    margin-right: 8rem; */
     margin-top: 2rem;
+
     
-    /* margin: auto;
-    width: 50%; */
 }
 
 .portfolio__projectList-heading {
@@ -22,21 +21,24 @@
     font-family: var(--font-family);
     font-weight: 600;
     color: var(--color-text);
+    
 }
 
 .portfolio__projectList-container {
     /* display: flex;
     flex-direction: row; */
+    /* margin: auto;
+    width: 50%; */
+    margin-left: 5rem;
 
 }
 
 
 .portfolio__projectList-container_groupB {
-    /* flex: 1; */
-
     display:grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 1rem;
+    /* grid-gap: 0.5rem; */
+    grid-row-gap: 1rem;
 
 }
 
@@ -77,4 +79,8 @@
         line-height: 42px;
     }
 
+    .portfolio__projectList-container {
+    margin:auto;
+    width: 50%;
+    }
 }
