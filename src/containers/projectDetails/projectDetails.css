@@ -1,10 +1,10 @@
 .portfolio__projectDetails {
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
     /* margin-left: 10rem;
     margin-right: 10rem; */
     margin-top: 3rem;
-    
+
     align-content: center;
     margin: auto;
     width: 50%;
@@ -70,8 +70,8 @@
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .portfolio__projectDetails-container_group .portfolio__projectDetails-container_article  {
-       width: 100%;
+    .portfolio__projectDetails-container_group .portfolio__projectDetails-container_article {
+        width: 100%;
     }
 
     .portfolio__projectDetails-heading h1 {

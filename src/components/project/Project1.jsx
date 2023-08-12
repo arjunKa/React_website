@@ -42,7 +42,7 @@ const Project1 = ({ imgUrl, date, header, content }) => (
           </div>
 
           <p>
-            Made during the RUhacks hackathon, the purpose of this project is to
+            Made during the RUhacks Hackathon, the purpose of this project is to
             provide the user an easy to understand determination of the risk of
             Covid-19 in their area. This project showcases the use of API
             implementation and an HTML + CSS frontend. We take the user's

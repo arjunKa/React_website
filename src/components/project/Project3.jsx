@@ -30,7 +30,7 @@ const Project3 = ({ imgUrl, date, header, content }) => (
           </div>
 
           <p>
-            This is a game demo using Java and the Greenfoot game engine
+            This is a game demo using Java and the GreenFoot game engine
             software to demonstrate a branching path style of game. It utilizes
             JSON to store all these paths in the game and the dialogue options.
             In the demo, you play as Detective Dom and must investigate a case

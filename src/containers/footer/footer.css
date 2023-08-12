@@ -1,4 +1,4 @@
-.portfolio__footer{
+.portfolio__footer {
     padding-bottom: 40px;
     /* margin-left: 3rem;
     margin-right: 3rem; */
@@ -8,19 +8,20 @@
 
 }
 
-.portfolio__footer_header{
+.portfolio__footer_header {
 
-padding-top: 20px;
-padding-bottom: 20px;
-
-}
-.portfolio__footer-content{
-text-align: center;
-
+    padding-top: 20px;
+    padding-bottom: 20px;
 
 }
 
-.portfolio__footer-content h1{
+.portfolio__footer-content {
+    text-align: center;
+
+
+}
+
+.portfolio__footer-content h1 {
 
     padding-top: 20px;
     padding-bottom: 20px;
@@ -29,10 +30,10 @@ text-align: center;
     font-family: var(--font-family);
     font-weight: 600;
     color: var(--color-text);
-    
+
 }
 
-.portfolio__footer-content h2{
+.portfolio__footer-content h2 {
 
     padding-top: 20px;
     padding-bottom: 20px;
@@ -41,20 +42,20 @@ text-align: center;
     font-family: var(--font-family);
     font-weight: 400;
     color: var(--color-text);
-    
+
 }
 
 .portfolio__contact-container {
     width: 400px;
     height: 200px;
-    border-radius:5px;
+    border-radius: 5px;
     /* display: flex;
     flex-direction: column; */
     background: var(--color-main);
     border: 2px solid transparent;
     transition: 0.15s;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    
+
 }
 
 .portfolio__contact-container p {
@@ -63,7 +64,7 @@ text-align: center;
     font-weight: 500;
     letter-spacing: 0.5px;
     /* line-height: 35px; */
-    
+
 
     color: rgb(0, 144, 222);
 
@@ -76,11 +77,11 @@ text-align: center;
     border: 2px solid #727272;
 }
 
-.portfolio__footer-content-contacts{
+.portfolio__footer-content-contacts {
 
     display: flex;
     flex-direction: row;
-    
+
     gap: 30px;
 
 
@@ -88,7 +89,7 @@ text-align: center;
 
 @media screen and (max-width: 900px) {
 
-    .portfolio__footer-content-contacts{
+    .portfolio__footer-content-contacts {
 
         display: flex;
         flex-direction: column;
@@ -96,50 +97,54 @@ text-align: center;
     }
 
 
-    .portfolio__footer-content h1{
+    .portfolio__footer-content h1 {
         font-size: 34px;
-        
+
     }
-    .portfolio__footer-content h2{
+
+    .portfolio__footer-content h2 {
 
 
         font-size: 22px;
 
-        
+
     }
-    
+
 }
 
 @media screen and (max-width: 700px) {
 
-    .portfolio__footer-content-contacts{
+    .portfolio__footer-content-contacts {
 
         display: flex;
         flex-direction: column;
-        
+
         gap: 30px;
-    
-    
+
+
     }
+
     .portfolio__contact-container {
         width: 200px;
         height: 150px;
-        
-        
+
+
     }
-    .portfolio__footer-content h1{
+
+    .portfolio__footer-content h1 {
 
 
         font-size: 34px;
 
-        
+
     }
-    .portfolio__footer-content h2{
+
+    .portfolio__footer-content h2 {
 
 
         font-size: 22px;
 
-        
+
     }
-    
+
 }
