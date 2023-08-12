@@ -17,6 +17,36 @@
 
     /* margin-right: 5rem; */
 }
+.portfolio__blog-container_header-content_options {
+    display: flex;
+    padding-top: 20px;
+
+}
+.portfolio__blog-container_header-content_options .button {
+    background-color: #ffffff;
+    /* Green */
+    border-radius: 4px;
+    border: 2px solid #4CAF50;
+    color: #4CAF50;
+    text-align: center;
+    padding: 7px 0;
+    text-decoration: none;
+
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: var(--font-family);
+    transition-duration: 0.2s;
+}
+
+.portfolio__blog-container_header-content_options .button:hover {
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+}
 
 .portfolio__header-content h1 {
     font-family: var(--font-family);

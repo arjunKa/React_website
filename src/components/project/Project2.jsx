@@ -3,9 +3,10 @@ import "./project.css";
 import GitHubButton from "react-github-btn";
 import projectImage from "../../assets/ProjectImages/portfolioSite.png";
 
-import html5 from "../../assets/icons/icons8-html5.svg";
+import html5 from "../../assets/icons/html5.svg";
 import css from "../../assets/icons/css.png";
 import react from "../../assets/icons/react.svg";
+import js from "../../assets/icons/javascript.svg";
 
 const Project2 = ({ imgUrl, date, header, content }) => (
   <div className="portfolio__project-container">
@@ -22,15 +23,16 @@ const Project2 = ({ imgUrl, date, header, content }) => (
           <h3>{header}</h3>
 
           <div className="portfolio__project-container-content-logos">
-            <a target="_blank" href="https://icons8.com/icon/20909/html-5">
+            
               <img src={react} alt="logo" />
-            </a>
-            <a target="_blank" href="https://icons8.com/icon/20909/html-5">
+              <img src={js} alt="logo" />
+            
+            
               <img src={html5} alt="logo" />
-            </a>
-            <a target="_blank" href="https://icons8.com/icon/20909/html-5">
+            
+           
               <img src={css} alt="logo" />
-            </a>
+            
           </div>
 
           <div className="portfolio__blog-container_article-content_options">

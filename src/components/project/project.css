@@ -134,12 +134,14 @@
     flex-direction: row;
     align-items: left;
     vertical-align: middle;
+    
 
 }
 
 .portfolio__project-container-content-logos img {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
+    margin-right: 3px;
 
 }
 

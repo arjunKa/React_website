@@ -10,11 +10,11 @@ const Header = () => {
           <p>
             I'm a Software Engineering student in my final year. I have
             experience working as a software developer and engineer; my projects
-            have used Python, C++, React.js, .NET Core, Java and more.
+            have used Python, C++, React.js, ASP.Net, Java and more.
           </p>
         </div>
 
-        <div className="portfolio__blog-container_article-content_options">
+        <div className="portfolio__blog-container_header-content_options">
           <a href="https://github.com/arjunKa/" target="_blank">
               <div className="button">GitHub</div>
             </a>
