@@ -27,9 +27,6 @@ const Project3 = ({ imgUrl, date, header }) => (
           <a href="https://github.com/arjunKa/CV_Helper" target="_blank">
               <div className="button">GitHub</div>
             </a>
-            <a href="https://www.greenfoot.org/scenarios/25657" target="_blank">
-              <div className="button">Try It</div>
-            </a>
           </div>
 
           <p>
