@@ -29,18 +29,25 @@
     flex-direction: row; */
     /* margin: auto;
     width: 50%; */
-    margin-left: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    
 
 }
 
 
 .portfolio__projectList-container_groupB {
-    display:grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    flex-wrap: wrap;
     /* grid-gap: 0.5rem; */
-    grid-row-gap: 1rem;
+
+    
+  
 
 }
+
 
 @media screen and (max-width: 1100px) {
     .portfolio__projectList-container_groupB {

@@ -16,16 +16,6 @@ const Card = ({linkToProject, skills, text, GithubLink}) => (
         
       <div className='skillsUsed'><h4>Skills Used: </h4> <p>{skills}</p> </div> 
       
-      
-      <div className="portfolio__blog-container_article-content_options">
-
-        {/* <GitHubButton href={GithubLink} data-color-scheme="no-preference: dark_high_contrast; light: dark_high_contrast; dark: dark_high_contrast;" data-size="small" aria-label="Follow @buttons on GitHub">
-          GitHub Repo</GitHubButton>
-
-        <GitHubButton href="https://github.com/buttons/github-buttons" data-color-scheme="no-preference: dark_high_contrast; light: dark_high_contrast; dark: dark_high_contrast;" data-icon="octicon-play" aria-label="Use ">
-          Try it</GitHubButton> */}
-      </div>
-
       <div className="portfolio__blog-container_article-content_view-project"> <a href={linkToProject}> <p>View Project</p> </a> </div>
     </div>
   </div>
