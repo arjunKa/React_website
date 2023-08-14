@@ -9,7 +9,7 @@ const Header = () => {
         <div className="portfolio__header-content-details">
           <p>
             I'm a Software Engineering student in my final year. I have
-            experience working as a software developer and engineer; my projects
+            experience working as a software developer and engineer; I
             have used Python, C++, React.js, ASP.Net, Java and more.
           </p>
         </div>

@@ -37,7 +37,7 @@ const Project = ({ imgUrl, date, header, content }) => (
               <div className="button">Article</div>
             </a>
             <a
-              href="https://www.youtube.com/watch?v=WexE3r4CIXI"
+              href="https://www.youtube.com/watch?v=h0Q62fK-7ZQ"
               target="_blank"
             >
               <div className="button">Demo</div>
@@ -49,9 +49,9 @@ const Project = ({ imgUrl, date, header, content }) => (
             York University to develop a prototype of a 3D GPS software. The
             software would be used by Emergency Medical Services to better
             navigate the streets, and also featured a VR component with the
-            ability to use the software in VR. Using game development software:
-            Unity and programs such as Sketch Up for 3D modelling, we worked to
-            build a prototype. The language used was C#.
+            ability to use the software in VR. Unity game development software
+            and C# programming language were used. 3D models were built using
+            SketchUp.
           </p>
         </div>
 
