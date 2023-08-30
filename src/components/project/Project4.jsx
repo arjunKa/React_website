@@ -5,7 +5,7 @@ import projectImage from "../../assets/ProjectImages/CVHelper.png";
 
 import java from "../../assets/icons/python.svg";
 
-const Project3 = ({ imgUrl, date, header }) => (
+const Project4 = ({ imgUrl, date, header }) => (
   <div className="portfolio__project-container">
     <div className="portfolio__project-container-image">
       {/* <img src={imgUrl} alt="blog_image" /> */}
@@ -46,11 +46,11 @@ const Project3 = ({ imgUrl, date, header }) => (
         </div>
 
         <div className="portfolio__project-container-content-image">
-          <img src={projectImage} alt="Portfolio Site" />
+          <img src={projectImage} alt="Python Resume App" />
         </div>
       </div>
     </div>
   </div>
 );
 
-export default Project3;
+export default Project4;

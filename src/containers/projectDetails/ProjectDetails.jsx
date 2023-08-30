@@ -6,6 +6,7 @@ import {
   Project2,
   Project3,
   Project4,
+  Project5,
 } from "../../components/project";
 
 const ProjectDetails = () => {
@@ -24,6 +25,9 @@ const ProjectDetails = () => {
         </div>
         <div id="CVHelper">
           <Project4 date="" header="CV/Resume Helper" />
+        </div>
+        <div id="HealthApp">
+          <Project5 date="" header="C++ Health & Fitness App" />
         </div>
         <div id="CoronaCast">
           <Project1 date="" header="CoronaCast" />

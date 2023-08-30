@@ -21,6 +21,11 @@ const ProjectList = () => {
             text="Resume Helper App"
           />
           <Card
+            linkToProject="#HealthApp"
+            skills="C++, Json"
+            text="C++ Health & Fitness App"
+          />
+          <Card
             linkToProject="#CoronaCast"
             skills="HTML, JavaScript, API implementation"
             text="Covid Risk Assessment Tool"

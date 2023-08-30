@@ -41,7 +41,7 @@ const Project3 = ({ imgUrl, date, header, content }) => (
         </div>
 
         <div className="portfolio__project-container-content-image">
-          <img src={projectImage} alt="Portfolio Site" />
+          <img src={projectImage} alt="Detective Dom demo" />
         </div>
       </div>
     </div>
