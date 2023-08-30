@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.58f50f85.css",
-    "main.js": "/static/js/main.afc1915d.js",
+    "main.js": "/static/js/main.3bb69e0a.js",
     "static/js/787.e403dcb9.chunk.js": "/static/js/787.e403dcb9.chunk.js",
     "static/media/coronaCast2.png": "/static/media/coronaCast2.b907cf59f148e3e0fbe0.png",
     "static/media/3D_GPS.png": "/static/media/3D_GPS.7864523e62ea38baab5f.png",
@@ -9,9 +9,11 @@
     "static/media/coronaCast.png": "/static/media/coronaCast.39881f0a0482e7beecba.png",
     "static/media/CVHelper.png": "/static/media/CVHelper.ac032274d3b22110ca2c.png",
     "static/media/detectiveDom.jpg": "/static/media/detectiveDom.525e791a2798db7b58b7.jpg",
+    "static/media/healthAppImage.png": "/static/media/healthAppImage.55ec5b479ca6cf6dfead.png",
     "static/media/icon.jpg": "/static/media/icon.11b5334b7ef61c34af2d.jpg",
     "static/media/react.svg": "/static/media/react.94fb2d67884b47bee1a30725af06c7ea.svg",
     "static/media/csharp.svg": "/static/media/csharp.04d9d2bb18b9781567f7340691dcc686.svg",
+    "static/media/cplusplus.svg": "/static/media/cplusplus.f00d9334f1e6c0da4960a74ebe7769cb.svg",
     "static/media/java.svg": "/static/media/java.5386b56c3206b6bd70b1053534d73dc3.svg",
     "static/media/python.svg": "/static/media/python.8cfa0a9db040ecc11a3017ff5536ef5e.svg",
     "static/media/unity.svg": "/static/media/unity.03cafb12af52b9268e531aca13d1dfd5.svg",
@@ -20,11 +22,11 @@
     "static/media/github.svg": "/static/media/github.1dbcf7b2491be69d987cad6ab8eacebc.svg",
     "index.html": "/index.html",
     "main.58f50f85.css.map": "/static/css/main.58f50f85.css.map",
-    "main.afc1915d.js.map": "/static/js/main.afc1915d.js.map",
+    "main.3bb69e0a.js.map": "/static/js/main.3bb69e0a.js.map",
     "787.e403dcb9.chunk.js.map": "/static/js/787.e403dcb9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.58f50f85.css",
-    "static/js/main.afc1915d.js"
+    "static/js/main.3bb69e0a.js"
   ]
 }
