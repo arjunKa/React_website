@@ -4,7 +4,7 @@ import projectImage from "../../assets/ProjectImages/healthAppImage.png";
 
 import java from "../../assets/icons/cplusplus.svg";
 
-const Project5 = ({ imgUrl, date, header }) => (
+const Project5 = ({ date, header }) => (
   <div className="portfolio__project-container">
     <div className="portfolio__project-container-image">
       {/* <img src={imgUrl} alt="blog_image" /> */}

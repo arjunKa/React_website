@@ -9,9 +9,6 @@ import js from "../../assets/icons/javascript.svg";
 
 const Project2 = ({ date, header }) => (
   <div className="portfolio__project-container">
-    <div className="portfolio__project-container-image">
-      {/* <img src={imgUrl} alt="blog_image" /> */}
-    </div>
     <div className="portfolio__project-container-content">
       <div>
         <p>{date}</p>

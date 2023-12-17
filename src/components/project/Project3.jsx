@@ -4,7 +4,7 @@ import projectImage from "../../assets/ProjectImages/detectiveDom.jpg";
 
 import java from "../../assets/icons/java.svg";
 
-const Project3 = ({ imgUrl, date, header, content }) => (
+const Project3 = ({ date, header }) => (
   <div className="portfolio__project-container">
     <div className="portfolio__project-container-image">
       {/* <img src={imgUrl} alt="blog_image" /> */}

@@ -1,6 +1,5 @@
 import React from "react";
 import "./project.css";
-import GitHubButton from "react-github-btn";
 import projectImage from "../../assets/ProjectImages/CVHelper.png";
 
 import java from "../../assets/icons/python.svg";
