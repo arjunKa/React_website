@@ -1,6 +1,5 @@
 import React from "react";
 import "./project.css";
-import GitHubButton from "react-github-btn";
 import projectImage from "../../assets/ProjectImages/detectiveDom.jpg";
 
 import java from "../../assets/icons/java.svg";
@@ -24,7 +23,7 @@ const Project3 = ({ imgUrl, date, header, content }) => (
           </div>
 
           <div className="portfolio__blog-container_article-content_options">
-            <a href="https://www.greenfoot.org/scenarios/25657" target="_blank">
+            <a href="https://www.greenfoot.org/scenarios/25657" target="_blank" rel="noreferrer">
               <div className="button">Try It</div>
             </a>
           </div>

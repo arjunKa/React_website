@@ -1,13 +1,12 @@
 import React from "react";
 import "./project.css";
-import GitHubButton from "react-github-btn";
 import coronaCast from "../../assets/ProjectImages/coronaCast.png";
 import coronaCast1 from "../../assets/ProjectImages/coronaCast2.png";
 import html5 from "../../assets/icons/html5.svg";
 import css from "../../assets/icons/css.png";
 import js from "../../assets/icons/javascript.svg";
 
-const Project1 = ({ imgUrl, date, header, content }) => (
+const Project1 = ({ date, header }) => (
   <div className="portfolio__project-container">
     <div className="portfolio__project-container-image">
       {/* <img src={imgUrl} alt="blog_image" /> */}
@@ -22,22 +21,24 @@ const Project1 = ({ imgUrl, date, header, content }) => (
           <h3>{header}</h3>
 
           <div className="portfolio__project-container-content-logos">
-            
-              <img src={html5} alt="logo" />
-            
-            
-              <img src={css} alt="logo" />
-              <img src={js} alt="logo" />
-            
+            <img src={html5} alt="logo" />
+
+            <img src={css} alt="logo" />
+            <img src={js} alt="logo" />
           </div>
 
           <div className="portfolio__blog-container_article-content_options">
-            <a href="https://github.com/Ru-Hacks/Coronacast" target="_blank">
+            <a
+              href="https://github.com/Ru-Hacks/Coronacast"
+              target="_blank"
+              rel="noreferrer"
+            >
               <div className="button">GitHub</div>
             </a>
             <a
               href="https://ru-hacks.github.io/Coronacast/index.html"
               target="_blank"
+              rel="noreferrer"
             >
               <div className="button">Try It</div>
             </a>

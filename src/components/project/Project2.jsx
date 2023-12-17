@@ -1,6 +1,5 @@
 import React from "react";
 import "./project.css";
-import GitHubButton from "react-github-btn";
 import projectImage from "../../assets/ProjectImages/portfolioSite.png";
 
 import html5 from "../../assets/icons/html5.svg";
@@ -8,7 +7,7 @@ import css from "../../assets/icons/css.png";
 import react from "../../assets/icons/react.svg";
 import js from "../../assets/icons/javascript.svg";
 
-const Project2 = ({ imgUrl, date, header, content }) => (
+const Project2 = ({ date, header }) => (
   <div className="portfolio__project-container">
     <div className="portfolio__project-container-image">
       {/* <img src={imgUrl} alt="blog_image" /> */}
@@ -23,20 +22,20 @@ const Project2 = ({ imgUrl, date, header, content }) => (
           <h3>{header}</h3>
 
           <div className="portfolio__project-container-content-logos">
-            
-              <img src={react} alt="logo" />
-              <img src={js} alt="logo" />
-            
-            
-              <img src={html5} alt="logo" />
-            
-           
-              <img src={css} alt="logo" />
-            
+            <img src={react} alt="logo" />
+            <img src={js} alt="logo" />
+
+            <img src={html5} alt="logo" />
+
+            <img src={css} alt="logo" />
           </div>
 
           <div className="portfolio__blog-container_article-content_options">
-            <a href="https://github.com/arjunKa/React_website" target="_blank">
+            <a
+              href="https://github.com/arjunKa/React_Portfolio_website"
+              target="_blank"
+              rel="noreferrer"
+            >
               <div className="button">GitHub</div>
             </a>
           </div>

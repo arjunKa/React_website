@@ -1,6 +1,5 @@
 import React from "react";
 import "./project.css";
-import GitHubButton from "react-github-btn";
 import projectImage from "../../assets/ProjectImages/healthAppImage.png";
 
 import java from "../../assets/icons/cplusplus.svg";
@@ -24,7 +23,7 @@ const Project5 = ({ imgUrl, date, header }) => (
           </div>
 
           <div className="portfolio__blog-container_article-content_options">
-            <a href="https://github.com/arjunKa/HealthApp" target="_blank">
+            <a href="https://github.com/arjunKa/HealthApp" target="_blank" rel="noreferrer">
               <div className="button">GitHub</div>
             </a>
           </div>

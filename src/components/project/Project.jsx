@@ -1,12 +1,10 @@
 import React from "react";
 import "./project.css";
-import GitHubButton from "react-github-btn";
-import coronaCast from "../../assets/ProjectImages/coronaCast.png";
 import projectImage from "../../assets/ProjectImages/3D_GPS.png";
 import csharp from "../../assets/icons/csharp.svg";
 import unity from "../../assets/icons/unity.svg";
 
-const Project = ({ imgUrl, date, header, content }) => (
+const Project = ({ date, header }) => (
   <div className="portfolio__project-container">
     <div className="portfolio__project-container-image">
       {/* <img src={imgUrl} alt="blog_image" /> */}
@@ -52,11 +50,31 @@ const Project = ({ imgUrl, date, header, content }) => (
             ability to use the software in VR. Unity game development software
             and C# programming language were used. 3D models were built using
             SketchUp.
+            <br></br>
+            <b>Other Links: </b>
+            <br></br>
+            <ul>
+              <li>
+                <a
+                  href="https://vgrserver.eecs.yorku.ca/~jenkin/papers/2017/icinco2017.pdf"
+                  target="_blank"
+                >
+                  Autonomous Trail Following: Paper on 'Autonomous Trail
+                  Following'
+                </a>
+              </li>
+              <li>
+                <a href="https://vgr.lab.yorku.ca/students/" target="_blank">
+                  Vision Graphics and Robotics student Alumnae which includes my
+                  name VGR York U Alumnae
+                </a>
+              </li>
+            </ul>
           </p>
         </div>
 
         <div className="portfolio__project-container-content-image">
-          <img src={projectImage} alt="3D GPS Image" />
+          <img src={projectImage} alt="3D GPS Street view" />
         </div>
       </div>
     </div>

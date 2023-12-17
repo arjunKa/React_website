@@ -24,7 +24,7 @@ const ProjectDetails = () => {
           <Project date="" header="3D GPS Software for Emergency Responders" />
         </div>
         <div id="CVHelper">
-          <Project4 date="" header="CV/Resume Helper" />
+          <Project4 date="" header="Resume Helper" />
         </div>
         <div id="HealthApp">
           <Project5 date="" header="C++ Health & Fitness App" />
