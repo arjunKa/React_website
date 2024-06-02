@@ -1,6 +1,6 @@
 .portfolio__project-container {
 
-    width: 1100px;
+    /* width: 1100px; */
     /* display: flex;
     flex-direction: row; */
     background: #ffffff;
@@ -38,20 +38,22 @@
 }
 
 .portfolio__project-container-content-image {
-    width: 100%;
-    height: 100%;
+    /* width: 100%;
+    height: 100%; */
+    /* max-width: 100px; */
     display: flex;
     flex-direction: column;
+    /* margin-left: 20px;
+    margin-right: 20px; */
     /* background: var(--color-bg); */
 
 }
 
 .portfolio__project-container-content-image img {
 
-    height: auto;
-    width: auto;
-    max-width: 500px;
-    max-height: 500px;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
 }
 
 .portfolio__project-container-content {
@@ -99,7 +101,7 @@
     flex: 1;
     display: flex;
     align-items: center;
-    flex-direction: row;
+    /* flex-direction: row; */
 
 }
 
@@ -110,6 +112,7 @@
     flex-direction: column;
     align-items: left;
     margin-right: 2rem;
+    max-width: 50%;
 
 }
 
@@ -118,7 +121,7 @@
     font-size: 16px;
     font-weight: 500;
     line-height: 1.7rem;
-    /* max-width: 50%; */
+    
     color: var(--color-text);
 }
 
@@ -128,13 +131,6 @@
     text-decoration: underline;
 }
 
-.portfolio__project-container-content-image {
-    /* flex: 1; */
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-
-}
 
 .portfolio__project-container-content-logos {
     /* flex: 1; */
@@ -163,17 +159,22 @@
 
     }
 
-    .portfolio__project-container {
+    /* .portfolio__project-container {
         width: 600px;
 
+    } */
+    
+    .portfolio__project-container-content-text {
+        margin-bottom: 1rem;
+        max-width: 100%;
+        margin-right: 0;
     }
-
     .portfolio__project-container-content-image img {
 
-        height: auto;
+        /* height: auto;
         width: auto;
         max-width: 350px;
-        max-height: 350px;
+        max-height: 350px; */
     }
 
     .portfolio__project-container-content-logos img {
@@ -196,7 +197,7 @@
     }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
 
 
     .portfolio__blog-container_article-content_options .button {
@@ -216,35 +217,6 @@
 
     }
 
-    .portfolio__project-container {
-        width: 390px;
-
-    }
-
-    .portfolio__project-container-content-image img {
-
-        height: auto;
-        width: auto;
-        max-width: 350px;
-        max-height: 350px;
-    }
-
-    .portfolio__project-container-content-text p {
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 1.3rem;
-
-    }
-
-    .portfolio__project-container-content-text {
-        margin-bottom: 1rem;
-    }
-
-    .portfolio__project-container-content-logos img {
-        height: 50px;
-        width: 50px;
-
-    }
 
 
 }

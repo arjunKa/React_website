@@ -179,5 +179,12 @@
         letter-spacing: 0.5px;
 
     }
+
+    .portfolio__blog-container_article {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 20px;
+        width: 200px;
+    }
     
 }
