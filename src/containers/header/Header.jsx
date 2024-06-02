@@ -8,9 +8,9 @@ const Header = () => {
         <h1 className="gradient__text">Hi, I'm Arjun</h1>
         <div className="portfolio__header-content-details">
           <p>
-            I'm a Software Engineering student in my final year with experience
-            working as a software developer and engineer. I have used Python,
-            C++, React.js, ASP.Net, Java and more in my projects and work.
+            I'm a Software Engineer and developer with 2+ years experience. I
+            have used Python, C++, React.js, ASP.Net, Java and more in my
+            projects and work. Below are some projects I have worked on.
           </p>
         </div>
 

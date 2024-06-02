@@ -6,7 +6,7 @@ import {
   Project2,
   Project3,
   Project4,
-  Project5,
+  Project5, Project6
 } from "../../components/project";
 
 const ProjectDetails = () => {
@@ -20,6 +20,9 @@ const ProjectDetails = () => {
       </div>
 
       <div className="portfolio__projectDetails-container_group">
+      <div id="EcoLearn">
+          <Project6 date="" header="EcoLearn" />
+        </div>
         <div id="3D_GPS">
           <Project date="" header="3D GPS Software for Emergency Responders" />
         </div>

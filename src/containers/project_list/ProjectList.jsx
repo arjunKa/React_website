@@ -10,6 +10,11 @@ const ProjectList = () => {
       </div>
       <div className="portfolio__projectList-container">
         <div className="portfolio__projectList-container_groupB">
+        <Card
+            linkToProject="#EcoLearn"
+            skills="Python, Django, React, Azure"
+            text="EcoLearn - Carbon Tool"
+          />
           <Card
             linkToProject="#3D_GPS"
             skills="C#, Unity Game Engine, SketchUp"
