@@ -7,7 +7,7 @@ const Footer = () => {
     <div className='portfolio__footer-content'>
       <h1 className='portfolio__footer_header'>Contact</h1>
       <div className='portfolio__footer-content-contacts'>
-        <div className='portfolio__contact-container'><h2>Email</h2> <a target="_blank" href='mailto: arjkaura@gmail.com'>
+        <div className='portfolio__contact-container'><h2>Email</h2> <a target="_blank" href='mailto: arjkaura@outlook.com'>
           <p>arjkaura@outlook.com</p> </a></div>
         <div className='portfolio__contact-container'><h2>GitHub</h2><a target="_blank" href='https://github.com/arjunKa'>
           <p>arjunKa</p></a></div>
