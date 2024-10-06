@@ -1,5 +1,5 @@
 {
-  "homepage": "https://arjunka.github.io",
+  "homepage": ".",
   "name": "React_Portfolio_website",
   "version": "0.1.0",
   "private": true,
@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "bootstrap-icons": "^1.10.5",
     "react": "^18.2.0",
+    "React_Portfolio_website": "file:",
     "react-dom": "^18.2.0",
     "react-github-btn": "^1.4.0",
     "react-icons": "^4.8.0",
