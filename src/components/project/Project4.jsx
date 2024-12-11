@@ -27,7 +27,7 @@ const Project4 = ({ date, header }) => (
               <div className="button">GitHub</div>
             </a>
             <a
-              href="https://arjunappstorage.blob.core.windows.net/downloads/1.0/ResumeHelper.msi"
+              href="https://akappstorage.blob.core.windows.net/resumehelperapp/1.0/ResumeHelper.msi"
               target="_blank"
             >
               <div className="button">Download</div>
